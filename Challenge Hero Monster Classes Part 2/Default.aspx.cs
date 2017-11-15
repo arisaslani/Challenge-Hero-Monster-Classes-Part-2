@@ -73,7 +73,7 @@ namespace Challenge_Hero_Monster_Classes_Part_2
 
         public int Attack(Dice attk)
         {
-            attk.Sides = 20;
+            attk.Sides = this.DamageMax;
             return attk.Roll();
         }
 
